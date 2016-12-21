@@ -1,0 +1,97 @@
+body {
+	font-size: 25px;
+}
+
+
+
+
+.color-rosa{
+	color:pink;
+}
+h3, p{
+	font-family: Roboto, sans-serif;
+}
+
+.titulo{
+	font-size:60px;
+	font-style: italic;
+	color: blue;
+	/*comentario*/
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Roboto', serif;
+	font-weight:"400"
+}
+
+.cuadrado{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	border-top: 4px solid black;
+	border-left: 10px dotted yellow;
+	border-right:  3px double pink;
+	border-bottom:  6px dashed white;
+}
+.boton{
+	background: red;
+	color: white;
+	text-decoration: none;
+}
+.boton:hover{
+	background: blue;
+	color:yellow;
+}
+.elementos li{
+	color: red;
+}
+.elementos li:first-child{
+	color:blue;
+}
+.elementos li:last-child{
+	color: green;
+}
+.elementos li:nth-child(2){
+	color: pink; 
+}
+.elementos li:nth-child(odd){
+	background: gray;
+}
+
+.circulo{
+	width: 200px;
+	height :200px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
+.circulo1{
+	background:red;
+}
+.circulo2{
+	background:blue;
+}
+.circulo3{
+	background:green;
+}
+.parrafo{
+
+    line-height: 22px;
+    letter-spacing: 10px;
+
+} 
+
+.facebook{
+	color: rgb(59,89,152);
+}
+.instagram{
+	color: rgb(233,89,80);
+}
+.twitter{
+	color: rgb(85,172,238);
+
+}
+.linkedin{
+	color: rgb(0,123,181);
+}
+ul {
+	list-style: none;
+}
